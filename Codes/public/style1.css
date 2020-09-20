@@ -1,0 +1,327 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  margin: 0;
+}
+
+/*******************************/
+/******Single Book page*********/
+/*******************************/
+
+
+/*********navbar***********/
+.navbar{
+    background-color: #2d096b;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.navbar-nav a{
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:active{
+    border-bottom: 1px solid #5fdb8f;
+}
+
+.nav-item,
+.nav-logo a{
+    padding: 1rem;
+    color: #fff;
+}
+
+.nav-logo a:hover,
+.nav-logo a:link{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: hidden;
+}
+
+.nav-logo{
+    font-family: Pacifico;
+}
+.nav-item a,
+.cart-button a{
+    color: #fff;
+}
+
+/****************end of navbar styling******************/
+
+
+
+
+.book-info h3,h5 {
+      margin: 2rem;
+}
+
+.book-info h5,h6{
+    border-bottom: 1px solid #bdbdbd;
+    color: #2d096b;
+}
+
+.book-info h6{
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+
+
+/*******************************/
+/******User options*************/
+/*******************************/
+
+.user-section{
+    overflow: hidden;
+}
+.user-heading{
+   text-align: center;
+    color: #ee584d;
+    margin-bottom: 20px;
+}
+
+.dashboard-table {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.dashboard-table  td, th{
+    padding: 10px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.dashboard-table  th{
+    width: 80%;
+}
+
+
+.home-button{
+    background-color: #ee584d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+/* SIGNUP PAGE */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 2px solid #f1f1f1;
+  background: #fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+
+.form-border {
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.center-sign {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+/*******************************/
+/******Add books page*************/
+/*******************************/
+
+.back-button button{
+    background-color: #ee584d;
+    border: 1px solid #ee584d;
+    border-radius: 0.4rem;
+    color: #fff;
+    padding: 0.2rem;
+}
+
+.back-button a{
+    
+    color: #fff;
+}
+
+.add-book-form{
+     margin-top: 2rem;
+}
+
+.add-book-form input[type="text"],
+.add-book-form textarea{
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    margin: 1rem;
+    width: 100%;
+    border: 1px solid rgb(83, 80, 80);
+}
+
+.add-book-form textarea{
+       height:200px
+}
+
+.add-book-form input[type="file"]{
+    padding: 0.2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.add-book-form label{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.add-book-form input[type="submit"]{
+    background-color: #ee584d;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    border: 1px solid #ee584d;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+
+/* FEEDBACK */
+
+.feedback {
+    width: 100%;
+    border: 2px solid #5fdb8f;
+    border-radius: 0.4rem;
+    margin: 20px;
+}
+
+.submit-button{
+    background-color: #ee584d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+}
+
+
+
+/* FOOTER */
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel-footer-2 {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2d096b;
+  color: #fff;
+  width: 100%;
+}
+
+#hours, #address, #social p {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#hours > span, #address > span, #social > span {
+  font-size: 1.3em;
+}
+
+.fa {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+.fa:hover {
+    color: #29CDB7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+/* */
+
+.gap {
+  margin-top: 100px;
+}
+
+.pad {
+  padding: 15px;
+  margin: 15px;
+}
+
+.table1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Profile */
+
+.left-pad {
+  margin-left: 100px;
+  padding-left: 50px;
+}

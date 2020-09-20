@@ -1,0 +1,801 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+/*******************************/
+/******Single Book page*********/
+/*******************************/
+
+.view-feedback {
+  margin-left: 15px;
+  padding-left: 20px;
+}
+
+/*********navbar***********/
+.navbar{
+    background-color: #2d096b;
+}
+
+.navbar-brand {
+  font-size: 1.7em;
+  padding-left: 20px;
+}
+
+.navbar-nav a{
+    border-bottom: 1px solid transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:active{
+    border-bottom: 1px solid #5fdb8f;
+}
+
+.nav-item,
+.nav-logo a{
+    padding: 1rem;
+    color: #fff;
+}
+
+
+
+.nav-logo a:hover,
+.nav-logo a:link{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: hidden;
+}
+
+.nav-logo{
+    font-family: Pacifico;
+}
+.nav-item a,
+.cart-button a{
+    color: #fff;
+}
+/****************end of navbar styling******************/
+
+.single-book-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.single-book-img img{
+    width: 20rem;
+    height: 15rem;
+    margin: 2rem;
+}
+
+
+.cart-button{
+     background-color: #ee584d;
+     text-align: center;
+     width: 18rem;
+     margin: 1rem 2rem 2rem 2rem;
+     color: #fff;
+}
+
+.book-info h3,h5,p{
+      margin: 2rem;
+}
+
+.book-info h5,h6{
+    border-bottom: 1px solid #bdbdbd;
+    color: #2d096b;
+    padding: 1rem;
+}
+
+.book-info a{
+  padding: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+
+.fa{
+    color: #fff !important;
+}
+
+/*******************************/
+/******Payment page*************/
+/*******************************/
+
+.payment-section{
+    overflow: hidden;
+}
+.cart-heading{
+   text-align: center;
+    color: #ee584d;
+}
+
+.payment-info-table {
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.payment-info-table  td, th{
+    padding: 1.5rem ;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.cash-pay-button{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width:20%;
+    margin-left: 40%;
+    background-color: #bdbdbd;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+
+.bkash-button{
+    background-color: #ee584d;
+    width:30%;
+    margin-left: 35%;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+
+
+/*******************************/
+/******About page*********/
+/*******************************/
+
+.about-section{
+    height: 30rem;
+}
+
+.about-section h3,h5,p{
+    text-align: center;
+    margin: 3rem;
+}
+
+.about-section h5{
+    border-bottom: 1px solid #bdbdbd;
+}
+
+/*******************************/
+/******Book genre list page*********/
+/*******************************/
+.search-container input[type="text"]{
+    width:60%;
+    margin: 3rem 0rem 3rem 3rem;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 1rem;
+    text-indent: 1rem;
+}
+
+.search-container button{
+    height:2.5rem;
+    float:right;
+    margin: 3rem 0rem 0rem 0rem;
+    border-radius: 1rem;
+    background-color: #ee584d;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+}
+
+.genre-heading-font{
+    padding: 10px;
+    border-bottom: 2px solid #bdbdbd;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(94, 92, 92);
+}
+
+.genre-list-table {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-bottom: 20px; 
+}
+
+.genre-list-table table{
+    width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 5rem;
+}
+
+.genre-list-table tr{
+    padding: 2rem;
+}
+
+.genre-list-table td{
+    padding: 0.6rem;
+    color:#000;
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.genre-list-table a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.genre-list-table a:hover,
+.genre-list-table a:link{
+    text-decoration: none;
+    color: #4dc0ee;
+}
+
+
+/* FOOTER */
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel-footer-2 {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2d096b;
+  color: #fff;
+  width: 100%;
+}
+
+#hours, #address, #social p {
+  color: #fff;
+  font-size: 1em;
+  line-height: 2.0;
+}
+
+#hours > span, #address > span, #social > span {
+  font-size: 1.3em;
+}
+
+.fa {
+  padding-top: 10px;
+
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+.fa:hover {
+    color: #29CDB7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-trash-alt{
+    color: black;
+}
+
+
+
+.user-section{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.user-heading{
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #bdbdbd;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(94, 92, 92);
+}
+
+.dashboard-table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.dashboard-table  td, th{
+    padding: 5px;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.dashboard-table  th{
+    width: 100%;
+}
+
+.dashboard-table a {
+  color: black;
+}
+
+.dashboard-table a:hover,
+.dashboard-table a:link{
+    text-decoration: none;
+    color: #4dc0ee;
+}
+
+
+.home-button{
+    background-color: #ee584d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+
+
+/* SINGLE BOOK PAGE */
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+
+
+
+
+.card3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card3 button:hover {
+  opacity: 0.7;
+}
+
+
+
+/* SIGNUP PAGE */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 2px solid #f1f1f1;
+  background: #fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+#message1 {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 5px;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message1 p {
+  padding: 1px;
+  font-size: 14px;
+}
+
+#message2 {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 5px;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message2 p {
+  padding: 1px;
+  font-size: 14px;
+}
+
+#message3 {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 5px;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message3 p {
+  padding: 1px;
+  font-size: 14px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -15px;
+  content: "Done";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -15px;
+  content: "X";
+}
+
+
+
+/* Set a style for all buttons */
+
+.form-border {
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.center-sign {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+/*******************************/
+/******Add books page*************/
+/*******************************/
+
+.back-button button{
+    background-color: #ee584d;
+    border: 1px solid #ee584d;
+    border-radius: 0.4rem;
+    color: #fff;
+    padding: 0.2rem;
+}
+
+.back-button a{
+    
+    color: #fff;
+}
+
+.add-book-form{
+     margin-top: 2rem;
+}
+
+.add-book-form input[type="text"],
+.add-book-form textarea{
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    margin: 1rem;
+    width: 100%;
+    border: 1px solid rgb(83, 80, 80);
+}
+
+.add-book-form textarea{
+       height:200px
+}
+
+.add-book-form input[type="file"]{
+    padding: 0.2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.add-book-form label{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.add-book-form input[type="submit"]{
+    background-color: #ee584d;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    border: 1px solid #ee584d;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+
+/* FEEDBACK */
+
+.feedback {
+    width: 100%;
+    border: 2px solid #5fdb8f;
+    border-radius: 0.4rem;
+    margin: 20px;
+}
+
+.submit-button{
+    background-color: #ee584d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+}
+
+
+
+/* */
+
+.gap {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.pad {
+  padding: 15px;
+  margin: 15px;
+}
+
+.table1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Profile */
+
+.left-pad {
+  margin-left: 100px;
+  padding-left: 50px;
+}
+
+
+
+/* HOMEPGAE */
+
+
+
+
+
+
+.thumbnail > a > img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 200px;
+  padding-bottom: 0px;
+}
+
+.book-title {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.3em ;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+
+
+/* USER */
+
+
+.main-body {
+    padding: 35px;
+}
+
+.card {
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+    background-color: #F9F9F9;
+}
+
+.card-body label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+
+.text-secondary {
+  margin-top: 15px;
+}
+
+.card2 {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);
+}
+.card2 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: .2rem;
+}
+.card-header2:first-child {
+    border-radius: calc(.2rem - 1px) calc(.2rem - 1px) 0 0;
+}
+.card-header2 {
+    border-bottom-width: 1px;
+}
+.card-header2 {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e9f2;
+}
+
+
+/*********Address & Map***********/
+.location{
+  height: 550px;
+}
+.location .address{
+  float: left;
+  margin: 220px 0 0 200px;
+}
+
+.location address{
+  font-style: italic;
+  font-size: 16px;
+}
+
+.location .map{
+  float: right;
+  margin: 80px 220px 0 0;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+
+
+}
+
+
+
+
+@media (max-width: 767px) {
+  /* Header */
+
+.navbar-brand {
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+
+.navbar-nav a{
+    border-bottom: 1px solid transparent;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.single-book-img img{
+    width: 16rem;
+    height: 12rem;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.cart-button{
+     background-color: #ee584d;
+     text-align: center;
+     width: 15rem;
+     margin: 1rem 2rem 2rem 2rem;
+     color: #fff;
+}

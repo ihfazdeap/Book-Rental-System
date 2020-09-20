@@ -1,0 +1,86 @@
+
+
+@media only screen and (max-width: 765px) {
+
+    /***********************************/
+    /******Single book page*************/
+    /***********************************/
+     .single-book-img img,
+     .cart-button{
+         width: 60%;
+         margin-left: 20%;
+     }
+
+     .single-book-img img{
+        height: 10rem;
+     }
+
+    /*******************************/
+    /******Payment page*************/
+    /*******************************/
+
+     .cash-pay-button{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        width:30%;
+        height:2rem;
+        margin-left: 35%;
+        background-color: #bdbdbd;
+        border-radius: 0.4rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 509px) {
+      /*********************************/
+      /******Book genre list page*********/
+      /**********************************/
+      .search-container input[type="text"]{
+        width:70%;
+        margin: 3rem 0rem 3rem 1rem;
+        border: 1px solid rgb(66, 66, 66);
+        border-radius: 1rem;
+        text-indent: 1rem;
+    }
+    
+      .search-container button{
+        width:20%;
+        height:1.5rem;
+        float:right;
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 1rem;
+        background-color: #ee584d;
+        border: none;
+        color: #fff;
+        text-align: center;
+        padding: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 490px) {
+
+    /*******************************/
+    /******Payment page*************/
+    /*******************************/
+    .payment-info-table {
+        width:60%;
+        margin-left: 5%;
+        margin-top: 4rem;
+     }
+
+     .cash-pay-button{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        width:10rem;
+        height:2rem;
+        background-color: #bdbdbd;
+        border-radius: 0.4rem;
+    }
+
+    .bkash-button{
+        background-color: #ee584d;
+        width:10rem;
+        height:2rem;
+        border-radius: 0.4rem;
+    }
+  }

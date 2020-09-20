@@ -1,0 +1,170 @@
+body{
+    font-family: 'Source Sans Pro';
+    margin: 0;
+  }
+  
+  /*********navbar***********/
+  .navbar{
+    background-color: #2d096b;
+  }
+  
+  .navbar-nav a{
+    border-bottom: 1px solid transparent;
+    color: #fff;
+  }
+  
+  .navbar-nav a:hover,
+  .navbar-nav a:active{
+    border-bottom: 1px solid #5fdb8f;
+    color: #fff;
+  }
+  
+  .nav-item,
+  .nav-logo a{
+    padding: 1rem;
+    color: #fff;
+  }
+  
+  .nav-logo a:hover,
+  .nav-logo a:link{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: hidden;
+  }
+  
+  .nav-logo{
+    font-family: Pacifico;
+  }
+  .nav-item a,
+  .cart-button a{
+    color: #fff;
+  }
+  /****************end of navbar styling******************/
+  
+  
+  /*********Below Navbar***********/
+  
+  .below-navbar{
+    height: 200px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .greeting{
+    margin-top: 30px;
+    font-family: 'Raleway';
+  }
+  
+  /*********Search Container***********/
+  .search-container{
+     margin: auto;
+     padding: 40px 0 0 30px;
+     width: 70%;
+     height: 100px;
+  }
+  
+  .form input[type=text]{
+      margin-top: 8px;    
+  }
+  
+  .search {
+      float: left;
+      width: 78%;
+      border-radius: 15px;
+      border: 1px solid grey;
+      padding: 10px 38px;
+  }
+  
+  .button{
+    float: right;
+    width: 20%;
+    background-color: #ee584d;
+    border: none;
+    color: white;
+    padding: 11.5px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.88;
+  }
+  
+  /*********Books***********/
+  .books{
+      height: 860px;
+      padding: 40px 30px 20px 50px;
+      text-align: center;
+  }
+  
+  .bookheadline{
+      padding: 0 30px 20px 40px;
+  }
+  
+  .book-images{
+      margin: auto;
+  }
+  
+  .book-images img{
+      
+      width: 10rem;
+      height: 10rem;
+      margin: 2rem;
+      cursor: pointer;
+  }
+  
+  .book-images img:hover{
+    opacity: .5;
+  }
+  /*********Footer***********/
+  footer{
+    width: 100%;
+    margin: 0;
+  }
+  .container {
+      margin: 0;
+  }
+  
+  .panel-footer-2 {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2d096b;
+    color: #fff;
+    width: 100%;
+  }
+  
+  #hours, #address, #social p {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  #hours > span, #address > span, #social > span {
+    font-size: 1.3em;
+  }
+  
+  .fa {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.5em;
+  }
+  
+  .fa:hover {
+      color: #29CDB7;
+      text-decoration: none;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+  

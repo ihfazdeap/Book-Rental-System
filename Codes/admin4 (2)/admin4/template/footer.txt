@@ -1,0 +1,9 @@
+Admin Module:
+UserName:admin
+Password:admin
+JobSeeker Module:
+UserName:jalpa
+Password:jalpa
+Employer Module
+UserName:
+Password:sunil
